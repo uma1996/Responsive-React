@@ -123,7 +123,7 @@ class LandingPage extends Component{
         return (
             <div>
                 <Header text="We are learning" />
-                <div className="container">
+                <div class="container">
                     {this.skillInformation.map(skill => {
                         return (
                             <Tile skillName={skill.name}
